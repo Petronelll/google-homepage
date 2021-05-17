@@ -1,8 +1,27 @@
-
 body {
     text-align: center;
     font-size: 14px;
     font-family: arial, sans-serif;
+}
+
+a {
+    color: #70757a;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 header {
@@ -16,7 +35,7 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content:space-between;
-    margin-top: 26em;
+    margin-top: 27em;
     color: #70757a;
 }
 
@@ -28,12 +47,15 @@ form {
 #search {
     width: 400px;
 }
+
 li {
     display: inline;
+    padding-left: 1em;
 }
 
 #logo {
     display: block;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     width: 272px;
@@ -41,5 +63,35 @@ li {
 }
 
 #left-footer {
-    margin-left: -2em;
+    margin-left: -3em;
+}
+
+#right-footer {
+    margin-right: 1em;
+}
+
+.black {
+    color: black;
+}
+
+.blue-background-white-color {
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 7%;
+    
+}
+
+.blue-background-white-color:hover {
+    background-color:#2a85fd;
+    text-decoration: none;
+}
+
+#apps {
+    vertical-align: middle;
+    padding: 0.4em;
+}
+#apps:hover {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
 }
