@@ -35,7 +35,7 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content:space-between;
-    margin-top: 27em;
+    margin-top: 20em;
     color: #70757a;
 }
 
@@ -45,7 +45,18 @@ form {
 }
 
 #search {
-    width: 400px;
+    width: 530px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("Images/search_black_24dp.svg");
+    background-position: 10px 6px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border-radius: 3%;
 }
 
 li {
@@ -94,4 +105,25 @@ li {
 #apps:hover {
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+#middle-div {
+    display: flexbox;
+}
+
+.middle-button {
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 2em 1em 0 1em;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    font-size: 14px;
+    border-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.middle-button:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.middle-button:active {
+    background-color: rgba(0, 0, 0, 0.1);
 }
