@@ -1,7 +1,6 @@
 # google-homepage
 
 TODO:
-- Make the page web responsive
 - Add functionality for:
     - Search bar
     - Google Search button
